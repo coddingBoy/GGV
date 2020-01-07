@@ -8,7 +8,7 @@ module.exports = {
     './src/index.tsx'
   ],
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     filename: '[name].[hash].js'
   },
   module: {
@@ -75,7 +75,7 @@ module.exports = {
     }
   },
   devServer: {
-    contentBase: './dist'
+    contentBase: './docs'
   },
   plugins: [
     new HtmlWebpackPlugin({
