@@ -1,0 +1,25 @@
+.container {
+    .comment {
+        margin-top: 18px;
+        background: #FEC930;
+        padding: 10px;
+        border-radius: 4px;
+        .email {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .content {
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.8)
+        }
+    }
+}
+.click {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 12px;
+    color: #fff;
+    font-size: 24px;
+    background: #0088BF;
+    border-radius: 24px;
+}
