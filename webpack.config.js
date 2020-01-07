@@ -75,7 +75,8 @@ module.exports = {
     }
   },
   devServer: {
-    contentBase: './docs'
+    contentBase: './docs',
+    open: true
   },
   plugins: [
     new HtmlWebpackPlugin({
